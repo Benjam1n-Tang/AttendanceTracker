@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pygetwindow = "*"
+pywinctl = "*"
+psutil = "*"
+wmi = "*"
+pyautogui = "*"
+pyscreeze = "*"
+pillow = "*"
+numpy = "*"
+opencv-python = "*"
+face-recognition = "*"
+face-recognition-models = {git = "https://github.com/ageitgey/face_recognition_models"}
+setuptools = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.0"
